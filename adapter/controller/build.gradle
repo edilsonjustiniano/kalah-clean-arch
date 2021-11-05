@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+version '0.0.1'
+project.ext.set("moduleName", "adapter.controller")
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation(
+            project(":usecase")
+    )
+    compileOnly 'org.projectlombok:lombok:1.18.22'
+    annotationProcessor 'org.projectlombok:lombok:1.18.22'
+
+    implementation 'org.slf4j:slf4j-api:1.7.32'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+test {
+    useJUnitPlatform()
+}
