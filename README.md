@@ -115,3 +115,5 @@ curl --header "Content-Type: application/json" \
 ## Future improvements
 
 Improve the `repository` module by adding to it the capacity to support different database implementation such as mongodb.
+
+Add more documentations, such as the class diagram to the project.
