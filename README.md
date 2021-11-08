@@ -37,7 +37,7 @@ To implement the game according its rule, it was created a Spring Boot RESTfull 
 In this repository you will going to see a program highly scalable, testable, readable and maintainable. For those reason
 the project is easily deployed since it is using some of the best approach and technologies in the market.
 
-I used as principle the `Clean Architecture` and I also used the `KISS` (Keep it simple, stupid) principle as well.
+I used as principle the `Clean Architecture` and `SOLID`. I also used the `KISS` (Keep it simple, stupid) principle as well.
 
 The project structure and the responsibilities are stated below:
 
